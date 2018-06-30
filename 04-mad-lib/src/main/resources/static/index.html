@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mad Lib</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="/post-words">
+            <fieldset>
+                <label>Enter a noun:</label>
+                <input type="text" name="noun" required>
+            </fieldset>
+            <fieldset>
+                <label>Enter a verb:</label>
+                <input type="text" name="verb" required>
+            </fieldset>
+            <fieldset>
+                <label>Enter an adjective:</label>
+                <input type="text" name="adjective" required>
+            </fieldset>
+            <fieldset>
+                <label>Enter an adverb:</label>
+                <input type="text" name="adverb" required>
+            </fieldset>
+            <fieldset>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
