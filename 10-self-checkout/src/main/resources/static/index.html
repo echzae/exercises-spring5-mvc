@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self Checkout</title>
+</head>
+<body>
+<form method="post" action="/self-checkout">
+    <fieldset>
+        <label>Enter the price of item 1:</label>
+        <input type="number" min="0.01" step="0.01" required name="price1">
+    </fieldset>
+    <fieldset>
+        <label>Enter the quantity of item 1:</label>
+        <input type="number" min="1" required name="quantity1">
+    </fieldset>
+    <fieldset>
+        <label>Enter the price of item 2:</label>
+        <input type="number" min="0.01" step="0.01" required name="price2">
+    </fieldset>
+    <fieldset>
+        <label>Enter the quantity of item 2:</label>
+        <input type="number" min="1" required name="quantity2">
+    </fieldset>
+    <fieldset>
+        <label>Enter the price of item 3:</label>
+        <input type="number" min="0.01" step="0.01" required name="price3">
+    </fieldset>
+    <fieldset>
+        <label>Enter the quantity of item 3:</label>
+        <input type="number" min="1" required name="quantity3">
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+</form>
+</body>
+</html>
