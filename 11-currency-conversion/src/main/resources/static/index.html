@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self Checkout</title>
+</head>
+<body>
+<form method="post" action="/exchange">
+    <fieldset>
+        <label>How many euros are you exchanging?</label>
+        <input type="number" min="0.01" step="0.01" required name="euros">
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+</form>
+</body>
+</html>
