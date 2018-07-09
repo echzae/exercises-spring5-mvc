@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compute Simple Interest</title>
+</head>
+<body>
+<form method="post" action="/simple-interest">
+    <fieldset>
+        <label>Enter the principal:</label>
+        <input type="number" min="1" required name="principal">
+    </fieldset>
+    <fieldset>
+        <label>Enter the rate of interest:</label>
+        <input type="number" min="0.1" step="0.1" required name="interest">
+    </fieldset>
+    <fieldset>
+        <label>Enter the number of years:</label>
+        <input type="number" min="1" required name="years">
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+</form>
+</body>
+</html>
