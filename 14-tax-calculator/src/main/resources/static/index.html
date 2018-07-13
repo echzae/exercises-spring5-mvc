@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator</title>
+</head>
+<body>
+<form method="post" action="/tax">
+    <fieldset>
+        <label>What is the order amount?</label>
+        <input type="number" min="0.01" step="0.01" required name="amount">
+    </fieldset>
+    <fieldset>
+        <label>What is the State?</label>
+        <input type="text" required name="state">
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+</form>
+</body>
+</html>
